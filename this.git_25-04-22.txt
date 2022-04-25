@@ -29,4 +29,4 @@
 		git remote add add origin URL ("https://github.com/Aperture/part1")
 
 5) push the local reposity to remote
-		git push -u origin master    
+		git push -u origin newfeature
