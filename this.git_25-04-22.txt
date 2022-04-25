@@ -1,0 +1,32 @@
+1) Create a local git repository and move the entire code base to it.
+=> step 1:- Create  a directory as Aperture 
+		
+		mkdir Aperture
+		cd Aperture
+=> step 2:- After going into directory , type 
+		git init
+
+=> step 3:- Make the changes inthe directory like typing the code then,
+		git add . (this command will add file)
+
+=> step 4:- To commit the code locally
+
+		git commit -m "Commited all the codes"
+
+2) Create a new branhc for new feature
+		=> git branch newfeature
+
+3) Merge back the created branch with master
+
+=> step 1 :- you can go the master branch by typing,
+		git checkout master
+
+=> step 2:- then merge the branch
+		git merge newfeature (branch name)
+
+4) create remote repository
+=> step 1:- Go to github create a new repository or if not you can create it directly from the command line
+		git remote add add origin URL ("https://github.com/Aperture/part1")
+
+5) push the local reposity to remote
+		git push -u origin master    
